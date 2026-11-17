@@ -1,0 +1,10 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: webapp-config
+data:
+  APP_TITLE: "Hello in MLOPS MENA Academy"
+  APP_ENV: dev
+  MYSQL_HOST: mysql #MySQL service name
+  MYSQL_PORT: "3306"
+  MYSQL_DATABASE: "webapp"
